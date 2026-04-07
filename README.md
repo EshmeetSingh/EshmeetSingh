@@ -1,37 +1,156 @@
-# Hi there, I'm Eshmeet Singh! 👋
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:203a43,100:2c5364&height=260&section=header&text=Eshmeet%20Singh&fontSize=70&fontAlignY=35&animation=fadeIn&desc=Backend%20%26%20Systems%20Engineering&descAlignY=55&descAlign=50" width="100%"/>
+</div>
 
-I am a **Mathematics and Computing** graduate (Class of 2025) from NSUT, New Delhi.
-
-My work focuses on the intersection of **Mathematical Theory** and **Data Engineering**. I am passionate about understanding the statistical logic behind Machine Learning models rather than just implementing them.
-
-### 🏆 Key Achievements
-* **GATE 2025 Qualified (Data Science & AI):** Secured **AIR 2574**, demonstrating aptitude in Linear Algebra and Probability.
-* **GATE 2025 Qualified (Computer Science):** Secured **AIR 2928**.
-* **NSUT Academic Resource Initiative:** Created and maintained a centralized knowledge repository for the Mathematics & Computing curriculum, serving the academic needs of **200+ students** across 6 semesters.
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=33C4FF&center=true&vCenter=true&width=750&lines=I+build+systems+that+enforce+their+own+correctness;Parsers%2C+pipelines%2C+and+sandboxed+execution;From+ASTs+to+isolated+runtime+environments;Mathematics+%26+Computing+%40+NSUT;GATE+2025+(CS+%7C+DS%26AI)" />
+</div>
 
 ---
 
-### 🛠 Tech Stack
-I focus on the pipeline from data loading to modeling.
-
-| **Category** | **Technologies** |
-| :--- | :--- |
-| **Languages** | Python (Data Analysis), SQL (PostgreSQL), C++ (STL), C |
-| **Data Science** | Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn |
-| **Core Concepts** | Statistical Analysis, Vector Calculus, DBMS, Operating Systems |
-
----
-
-### 🔭 Featured Work
-**[Heart Disease Diagnostic Analysis](https://github.com/EshmeetSingh/Heart-Disease-Diagnostic-Analysis)**
-* **The Goal:** Predict heart disease risk using an 11-feature clinical dataset.
-* **The Approach:** Built a leakage-proof pipeline using **Median Imputation** for data integrity and applied **Yeo-Johnson Transformation** to normalize skewed features for optimal model performance.
-* **The Result:** Achieved **~87% Accuracy** using Logistic Regression and Voting Classifiers.
+<div align="center">
+  <a href="https://linkedin.com/in/EshmeetSingh23">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:eshmeetsingh23x2@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail" />
+  </a>
+  <a href="https://github.com/EshmeetSingh">
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" />
+  </a>
+</div>
 
 ---
 
-### 📫 Connect with Me
-* **LinkedIn:** [linkedin.com/in/EshmeetSingh23](https://linkedin.com/in/EshmeetSingh23)
-* **Email:** [eshmeetsingh23x2@gmail.com](mailto:eshmeetsingh23x2@gmail.com)
+## 👨‍💻 The System Builder
 
-![Eshmeet's GitHub stats](https://github-readme-stats.vercel.app/api?username=EshmeetSingh&show_icons=true&theme=radical)
+<img align="right" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="170" />
+
+I am a **Mathematics & Computing graduate (NSUT, 2025)** working at the intersection of **backend systems and formal structure**.
+
+I don’t build features first.  
+I build **systems that constrain behavior**, where correctness is not checked later — it is enforced by design.
+
+That means:
+- clear execution pipelines
+- strict boundaries between components
+- explicit failure instead of silent bugs
+
+<br clear="right"/>
+
+---
+
+## ⚙️ What I Build
+
+### 🧠 Codex — Sandboxed Execution System
+> *A system that executes untrusted code without trusting it*
+
+- Queue-driven pipeline  
+  `API → Queue → Worker → Executor → Parser → Explainer`
+
+- Runs user code inside **isolated Docker environments**
+
+- Captures and structures:
+  - stdout
+  - stderr
+  - exit codes
+
+- Multi-stage error interpretation:
+  - Syntax
+  - Runtime
+  - Compilation
+  - Timeout
+  - Undefined behavior fallback
+
+- **Key idea:**  
+  The system guarantees a valid output shape — even when execution fails
+
+---
+
+### 📐 PyCAS — Symbolic Computation Engine
+> *A system that manipulates mathematics structurally, not numerically*
+
+- Custom **recursive-descent parser**
+
+- Converts raw expressions → **typed AST**
+
+- Enforces structural invariants at every stage
+
+- Implements rule-based:
+  - differentiation
+  - integration
+
+- Uses **exact rational arithmetic** (no floating-point drift)
+
+- **Key idea:**  
+  Math is treated as a structure, not just a computation
+
+---
+
+### 🗂️ Anime Organization Mapper
+> *A system for representing hierarchical relationships cleanly*
+
+- Relational schema with **self-referencing hierarchy**
+
+- Many-to-many membership modeling
+
+- Graph visualization layer (NetworkX + PyVis)
+
+- Strict separation:
+  - data
+  - logic
+  - visualization
+
+---
+
+## 🧩 Engineering Principles
+
+These show up in everything I build:
+
+- Systems should **enforce invariants**, not rely on discipline  
+- Every layer should have a **clear contract**  
+- Failure should be **explicit and classifiable**  
+- Extensibility should not require rewriting core logic  
+- Computation and presentation must remain **decoupled**
+
+---
+
+## 🛠️ Stack
+
+<div align="center">
+
+| | |
+|---|---|
+| **Languages** | Python · C++ · C · SQL |
+| **Systems** | Docker · FastAPI · Job Queues · Linux |
+| **Core CS** | OS · DBMS · CN · DSA · Parsing · ASTs |
+| **Libraries** | NumPy · Pandas · NetworkX |
+
+</div>
+
+---
+
+## 📊 Signals
+
+- GATE 2025 — CS: AIR 2928  
+- GATE 2025 — DS & AI: AIR 2574  
+- Built systems from scratch (parsers, pipelines, execution engines)  
+- Authored **500+ pages** of technical notes used by **200+ students**
+
+---
+
+## ⚡ Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EshmeetSingh&bg_color=0d1117&color=00f2ff&line=33C4FF&point=FFFFFF&hide_border=true" width="100%" />
+  <br><br>
+
+  <img src="https://github-readme-stats.vercel.app/api?username=EshmeetSingh&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EshmeetSingh&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+</div>
+
+---
+
+<div align="center">
+  <i>"A system that depends on discipline will eventually fail. A system that enforces structure won't."</i>
+</div>
