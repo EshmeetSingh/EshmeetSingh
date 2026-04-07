@@ -1,154 +1,158 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=240&section=header&text=Eshmeet%20Singh&fontSize=60&fontAlignY=35&animation=fadeIn&desc=Backend%20%26%20Systems%20Engineering&descAlignY=55&descAlign=50)
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=33C4FF&center=true&vCenter=true&width=750&lines=I+build+systems+that+enforce+their+own+correctness;Parsers%2C+pipelines%2C+and+sandboxed+execution;From+ASTs+to+isolated+runtime+environments;Mathematics+%26+Computing+%40+NSUT;GATE+2025+(CS+%7C+DS%26AI)" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b5876,50:4e4376,100:5f9cff&height=280&section=header&text=Eshmeet%20Singh&fontSize=72&fontAlignY=38&animation=fadeIn&fontColor=ffffff&desc=Backend%20Systems%20%7C%20Execution%20Engines%20%7C%20Compilers&descAlignY=60&descAlign=50&descColor=e0f2fe"/>
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3200&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&lines=Systems+that+enforce+correctness;Execution+Pipelines+%7C+Parsers+%7C+AST;Designing+for+failure%2C+not+just+success;Correctness+through+structure+%E2%80%94+not+convention" />
+
+<br/><br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/EshmeetSingh23)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:eshmeetsingh23x2@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/EshmeetSingh)
+
 </div>
 
 ---
 
-<div align="center">
-  <a href="https://linkedin.com/in/EshmeetSingh23">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
-  </a>
-  <a href="mailto:eshmeetsingh23x2@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail" />
-  </a>
-  <a href="https://github.com/EshmeetSingh">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" />
-  </a>
-</div>
+### 👨‍💻 The Engineer's Log
 
----
+<img align="right" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="350" />
 
-## 👨‍💻 The System Builder
+**Mathematics & Computing graduate (NSUT, 2025)** — focused on backend and systems engineering.
 
-<img align="right" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="170" />
+I build systems where:
+- correctness is enforced through **structure**
+- execution is **isolated** and **deterministic**
+- failure is **explicit** and **classifiable**
 
-I am a **Mathematics & Computing graduate (NSUT, 2025)** working at the intersection of **backend systems and formal structure**.
+**Current Focus**
 
-I don’t build features first.  
-I build **systems that constrain behavior**, where correctness is not checked later — it is enforced by design.
+| Project | Type | Status |
+| :--- | :--- | :--- |
+| 🔭 **Codex** | Sandboxed execution engine | Active |
+| 🚀 **PyCAS** | Symbolic computation engine | Active |
+| 📚 **Technical Notes** | 500+ pages · 200+ students | Shipped |
 
-That means:
-- clear execution pipelines
-- strict boundaries between components
-- explicit failure instead of silent bugs
+<p align="left">
+  <img src="https://img.shields.io/badge/GATE_CS_2025-AIR_2928-2563EB?style=flat-square" />
+  <img src="https://img.shields.io/badge/GATE_DSAI_2025-AIR_2574-2563EB?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Systems_Engineering-059669?style=flat-square" />
+</p>
 
 <br clear="right"/>
 
 ---
 
-## ⚙️ What I Build
+### ⚙️ Systems
 
-### 🧠 Codex — Sandboxed Execution System
-> *A system that executes untrusted code without trusting it*
+#### Codex — Sandboxed Execution Engine
 
-- Queue-driven pipeline  
-  `API → Queue → Worker → Executor → Parser → Explainer`
+> *Isolated, deterministic code execution with structured error contracts*
 
-- Runs user code inside **isolated Docker environments**
+<pre>API → Queue → Worker → Executor → Parser → Explainer</pre>
 
-- Captures and structures:
-  - stdout
-  - stderr
-  - exit codes
+<table>
+<tr>
+<td><b>Isolation</b></td><td>Docker containers</td>
+<td><b>Latency</b></td><td>2–4s</td>
+</tr>
+<tr>
+<td><b>Error model</b></td><td>5-class structured</td>
+<td><b>Queue depth</b></td><td>10 concurrent jobs</td>
+</tr>
+</table>
 
-- Multi-stage error interpretation:
-  - Syntax
-  - Runtime
-  - Compilation
-  - Timeout
-  - Undefined behavior fallback
-
-- **Key idea:**  
-  The system guarantees a valid output shape — even when execution fails
-
----
-
-### 📐 PyCAS — Symbolic Computation Engine
-> *A system that manipulates mathematics structurally, not numerically*
-
-- Custom **recursive-descent parser**
-
-- Converts raw expressions → **typed AST**
-
-- Enforces structural invariants at every stage
-
-- Implements rule-based:
-  - differentiation
-  - integration
-
-- Uses **exact rational arithmetic** (no floating-point drift)
-
-- **Key idea:**  
-  Math is treated as a structure, not just a computation
+**Properties**
+- Deterministic output contracts — same input always produces same classified output  
+- Extensible language pipelines — add runtimes without modifying core  
+- Zero ambiguous failures — every error is typed, not stringified  
 
 ---
 
-### 🗂️ Anime Organization Mapper
-> *A system for representing hierarchical relationships cleanly*
+#### PyCAS — Symbolic Computation Engine
 
-- Relational schema with **self-referencing hierarchy**
+> *Rule-based CAS with exact arithmetic and explicit rejection for unsupported cases*
 
-- Many-to-many membership modeling
+<pre>Expression → Parser → AST → Transformation → Output</pre>
 
-- Graph visualization layer (NetworkX + PyVis)
+<table>
+<tr>
+<td><b>Input forms</b></td><td>11</td>
+<td><b>AST node types</b></td><td>7</td>
+</tr>
+<tr>
+<td><b>Invariants enforced</b></td><td>13</td>
+<td><b>Test suite</b></td><td>28/30 correct · 0 silent failures</td>
+</tr>
+</table>
 
-- Strict separation:
-  - data
-  - logic
-  - visualization
-
----
-
-## 🧩 Engineering Principles
-
-These show up in everything I build:
-
-- Systems should **enforce invariants**, not rely on discipline  
-- Every layer should have a **clear contract**  
-- Failure should be **explicit and classifiable**  
-- Extensibility should not require rewriting core logic  
-- Computation and presentation must remain **decoupled**
+**Properties**
+- Exact arithmetic via `fractions.Fraction` — no floating-point contamination  
+- Rule-based calculus: linearity, power, trig, exp  
+- Explicit rejection for unsupported cases — fails loud, never silently wrong  
 
 ---
 
-## 🛠️ Stack
+### 📂 Featured Projects
 
 <div align="center">
+  <a href="https://github.com/EshmeetSingh/Codex">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=EshmeetSingh&repo=Codex&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/EshmeetSingh/PyCAS">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=EshmeetSingh&repo=PyCAS&theme=tokyonight&hide_border=true" />
+  </a>
+</div>
+
+---
+
+### 🛠️ Stack
+
+<div align="center">
+
+<b>Core</b>  
+<img src="https://skillicons.dev/icons?i=python,cpp,c,sqlite" height="55"/>
+
+<br>
+
+<b>Infrastructure</b>  
+<img src="https://skillicons.dev/icons?i=docker,fastapi,linux,git" height="55"/>
+
+<br>
+
+<b>Libraries</b>  
+<img src="https://skillicons.dev/icons?i=scikitlearn" height="55"/>
+
+</div>
+
+---
+
+### 📊 Signals
 
 | | |
-|---|---|
-| **Languages** | Python · C++ · C · SQL |
-| **Systems** | Docker · FastAPI · Job Queues · Linux |
-| **Core CS** | OS · DBMS · CN · DSA · Parsing · ASTs |
-| **Libraries** | NumPy · Pandas · NetworkX |
-
-</div>
+| :--- | :--- |
+| 🏆 GATE 2025 CS | AIR **2928** |
+| 🏆 GATE 2025 DS & AI | AIR **2574** |
+| 📚 Technical notes | 500+ pages · 200+ students |
 
 ---
 
-## 📊 Signals
-
-- GATE 2025 — CS: AIR 2928  
-- GATE 2025 — DS & AI: AIR 2574  
-- Built systems from scratch (parsers, pipelines, execution engines)  
-- Authored **500+ pages** of technical notes used by **200+ students**
-
----
-
-## ⚡ Activity
+### ⚡ Engineering Activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EshmeetSingh&bg_color=0d1117&color=00f2ff&line=33C4FF&point=FFFFFF&hide_border=true" width="100%" />
-  <br><br>
-
-  <img src="https://github-readme-stats.vercel.app/api?username=EshmeetSingh&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EshmeetSingh&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EshmeetSingh&bg_color=0d1117&color=60A5FA&line=38BDF8&point=38BDF8&area=true&area_color=38BDF8&hide_border=true" width="100%" />
 </div>
 
 ---
 
 <div align="center">
-  <i>"A system that depends on discipline will eventually fail. A system that enforces structure won't."</i>
+  <img src="https://komarev.com/ghpvc/?username=EshmeetSingh&label=Profile+Views&color=1e40af&style=flat-square" />
+</div>
+
+<br/>
+
+<div align="center">
+  <sub><i>Systems should make incorrect behavior impossible — not just unlikely.</i></sub>
 </div>
