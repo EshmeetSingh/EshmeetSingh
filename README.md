@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Eshmeet%20Singh" />
-</div>
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=240&section=header&text=Eshmeet%20Singh&fontSize=60&fontAlignY=35&animation=fadeIn&desc=Backend%20%26%20Systems%20Engineering&descAlignY=55&descAlign=50)
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=33C4FF&center=true&vCenter=true&width=750&lines=I+build+systems+that+enforce+their+own+correctness;Parsers%2C+pipelines%2C+and+sandboxed+execution;From+ASTs+to+isolated+runtime+environments;Mathematics+%26+Computing+%40+NSUT;GATE+2025+(CS+%7C+DS%26AI)" />
