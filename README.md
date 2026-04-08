@@ -18,7 +18,7 @@
 
 ### 👨‍💻 The Engineer's Log
 
-<img align="right" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="350" />
+<img align="right" src="https://media3.giphy.com/media/2CV88JdrUCOYT5Ec8j/giphy.gif" width="200" />
 
 **Mathematics & Computing graduate (NSUT, 2025)** — focused on backend and systems engineering.
 
