@@ -33,7 +33,7 @@ I build systems where:
 | :--- | :--- | :--- |
 | 🔭 **Codex** | Sandboxed execution engine | Active |
 | 🚀 **PyCAS** | Symbolic computation engine | Active |
-| 📚 **Technical Notes** | 500+ pages · 200+ students | Shipped |
+| 📚 **Technical Notes** | 2000+ pages · 200+ students | Shipped |
 
 <p align="left">
   <img src="https://img.shields.io/badge/GATE_CS_2025-AIR_2928-2563EB?style=flat-square" />
@@ -135,7 +135,7 @@ I build systems where:
 | :--- | :--- |
 | 🏆 GATE 2025 CS | AIR **2928** |
 | 🏆 GATE 2025 DS & AI | AIR **2574** |
-| 📚 Technical notes | 500+ pages · 200+ students |
+| 📚 Technical notes | 2000+ pages · 200+ students |
 
 ---
 
